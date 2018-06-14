@@ -1,0 +1,37 @@
+.athlete-input-search {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    grid-gap: 1em;
+    /* max-width: 70em; */
+}
+
+.athlete-search-option1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    grid-gap: 1em;
+    /* max-width: 70em; */
+}
+
+.athlete-search-option2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    grid-gap: 1em;
+    /* max-width: 70em; */
+}
+
+.athlete-search-pitching-stats {
+    border: 1px solid #d4d4d4;
+    padding: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6em, 1fr));
+    grid-gap: 0.5em;
+}
+
+.athlete-search-hitting-stats {
+    border: 1px solid #d4d4d4;
+    padding: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6em, 1fr));
+    grid-gap: 0.5em;
+}
+
